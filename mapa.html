@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS de la guia rapida de lealeft -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <!-- Mi propio css -->
+    <link rel="stylesheet" type="text/css" href="mapa.css">
+    <!-- CSS de MiniMapa y Leyenda Leaflet -->
+    <link rel="stylesheet" type="text/css" href="Leaflet-MiniMap-master/dist/Control.MiniMap.min.css">
+    <link rel="stylesheet" type="text/css" href="Leaflet.Legend-master/src/leaflet.legend.css">
+
+    <title>Mar Menor</title>
+</head>
+
+<body>
+    <div id="map"></div>
+    <!-- SCRIPT de la guia rapida de lealeft, siempre despues del css -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <!-- SCRIPT MiniMapa y Leyenda Leaflet-->
+    <script src="Leaflet-MiniMap-master/dist/Control.MiniMap.min.js"></script>
+    <script src="Leaflet.Legend-master/src/leaflet.legend.js"></script>
+    <!-- Capa area Mar Menor -->
+    <script src="layers/marMenor.js"></script>
+    <!-- Mi propio javascript -->
+    <script src="mapa.js"></script>
+</body>
+
+</html>
