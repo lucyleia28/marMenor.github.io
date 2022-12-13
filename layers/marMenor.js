@@ -1,4 +1,4 @@
-var marMenor = {
+{
     "type": "FeatureCollection",
     "features": [{
         "type": "Feature",
@@ -240,4 +240,4 @@ var marMenor = {
     "numberReturned": 1,
     "timeStamp": "2022-12-05T09:32:40.685Z",
     "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4326" } }
-};
+}
