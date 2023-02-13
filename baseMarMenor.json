@@ -1,12 +1,12 @@
-// 20230213092847
-// http://localhost:8080/geoserver/MarMenor/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=MarMenor%3Aareamarmenor&maxFeatures=50&outputFormat=application%2Fjson
+// 20230213092954
+// http://localhost:8080/geoserver/MarMenor/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=MarMenor%3Abasemarmenor&maxFeatures=50&outputFormat=application%2Fjson
 
 {
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
-      "id": "areamarmenor.1",
+      "id": "basemarmenor.1",
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -725,7 +725,7 @@
   "totalFeatures": 1,
   "numberMatched": 1,
   "numberReturned": 1,
-  "timeStamp": "2023-02-13T08:28:47.527Z",
+  "timeStamp": "2023-02-13T08:29:54.801Z",
   "crs": {
     "type": "name",
     "properties": {
