@@ -1,6 +1,3 @@
-// 20230213092847
-// http://localhost:8080/geoserver/MarMenor/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=MarMenor%3Aareamarmenor&maxFeatures=50&outputFormat=application%2Fjson
-
 {
   "type": "FeatureCollection",
   "features": [
