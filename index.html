@@ -20,11 +20,16 @@
     <div id="map"></div>
     <!-- SCRIPT de la guia rapida de lealeft, siempre despues del css -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <!-- SCRIPT Heatmap (siempre antes heatmap.js que lo demas) -->
+    <script src="heatmap.js-2.0.5/build/heatmap.js"></script>
+    <script src="heatmap.js-2.0.5/plugins/leaflet-heatmap/leaflet-heatmap.js"></script>
     <!-- SCRIPT MiniMapa y Leyenda Leaflet-->
     <script src="Leaflet-MiniMap-master/dist/Control.MiniMap.min.js"></script>
     <script src="Leaflet.Legend-master/src/leaflet.legend.js"></script>
     <!-- Capa area Mar Menor -->
     <script src="layers/marMenor.js"></script>
+    <!-- Capa coordenadas Mapa Calor -->
+    <script src="layers/coordenadasCalor.js"></script>
     <!-- Mi propio javascript -->
     <script src="mapa.js"></script>
 </body>
