@@ -12,5 +12,6 @@ var coordenadasCalor = {
         { lat: 37.766951, lng: -0.782139, count: 6 },
         { lat: 37.754300, lng: -0.759179, count: 7 },
         { lat: 37.733577, lng: -0.771239, count: 6 },
-    ]
+    ],
+    length: 11
 };
