@@ -1,4 +1,4 @@
-var coordenadasCalor = {
+{
     max: 8,
     min: 0,
     data: [
