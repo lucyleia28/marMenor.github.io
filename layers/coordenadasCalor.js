@@ -1,5 +1,6 @@
 var coordenadasCalor = {
     max: 8,
+    min: 0,
     data: [
         { lat: 37.709400, lng: -0.785520, count: 8 },
         { lat: 37.789576, lng: -0.787465, count: 3 },
