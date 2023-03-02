@@ -1,4 +1,4 @@
-{
+var coordinadasCalor = {
     max: 8,
     min: 0,
     data: [
