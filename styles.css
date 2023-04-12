@@ -1,3 +1,22 @@
+/* Mapa General */
+
+#mapaGeneral {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#map {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#info {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+
 /* Fondo modal: negro con opacidad al 50% */
 
 .modal {
