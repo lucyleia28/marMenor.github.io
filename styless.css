@@ -2,11 +2,11 @@
 
 #mapaGeneral {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /*grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    /*grid-template-columns: auto auto;*/
+    grid-row-gap: 0px;*/
+    grid-template-columns: auto auto;
 }
 
 #map {
@@ -20,7 +20,7 @@
     /* grid-area: 1 / 2 / 2 / 3; */
     background-color: #F9F9F9;
     border: solid #D0D4D8;
-    width: 35em;
+    width: 50em;
 }
 
 /* Avistamientos en el mapa */
