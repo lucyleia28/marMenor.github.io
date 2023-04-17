@@ -10,6 +10,7 @@
 
 #map {
     grid-area: 1 / 1 / 2 / 2;
+    border: solid .2em #D0D4D8;
 }
 
 #info {
