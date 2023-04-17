@@ -11,14 +11,14 @@
 }
 
 #map {
-    grid-area: 1 / 1 / 2 / 2;
+    /* grid-area: 1 / 1 / 2 / 2; */
     border: solid .2em #D0D4D8;
     height: 70em;
     width: 50em;
 }
 
 #info {
-    grid-area: 1 / 2 / 2 / 3;
+    /* grid-area: 1 / 2 / 2 / 3; */
     background-color: #F9F9F9;
     border: solid #D0D4D8;
     /* height: auto; */
