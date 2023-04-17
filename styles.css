@@ -19,7 +19,7 @@
     grid-area: 1 / 2 / 2 / 3;
     background-color: #F9F9F9;
     border: solid #D0D4D8;
-    height: auto;
+    /* height: auto; */
     width: 50em;
 }
 
