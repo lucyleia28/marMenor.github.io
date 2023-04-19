@@ -23,6 +23,12 @@
     width: 50em;
 }
 
+div#listadoAves {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 5px;
+}
+
 /* Avistamientos en el mapa */
 
 /* Fondo modal: negro con opacidad al 50% */
