@@ -45,6 +45,24 @@ input.fecha {
     visibility: hidden;
 }
 
+label.boton {
+    background-color: #F9F9F9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -15px;
+    margin-right: 5px;
+    border: solid 2px #D5D8DC;
+}
+
+input[type="radio"] + label:before{
+    background-color: #388BFC;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -15px;
+    margin-right: 5px;
+    color: #F9F9F9;
+}
+
 /* Avistamientos en el mapa */
 
 /* Fondo modal: negro con opacidad al 50% */
