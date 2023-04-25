@@ -23,10 +23,6 @@
     width: 50em;
 }
 
-#infoElements {
-    margin: 0 20px;
-}
-
 #infoElements<h3 {
     margin-top: 20px;
 }
@@ -35,12 +31,18 @@ div#listadoAves {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 5px;
+    margin-buttom: 20px;
 }
 
 div#listadoZonas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 5px;
+    margin-buttom: 20px;
+}
+
+input.fecha {
+    visibility: hidden;
 }
 
 /* Avistamientos en el mapa */
