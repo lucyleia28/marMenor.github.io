@@ -45,34 +45,20 @@ div#listadoZonas {
     margin-buttom: 20px;
 }
 
-input.fecha {
-    visibility: hidden;
+#contenedorBotones input[type=radio] {
+  display: none;
 }
 
-/*label.boton {
+#contenedorBotones label {
     background-color: #F9F9F9;
     padding: 10px;
     border-radius: 5px;
-    margin-left: -15px;
-    margin-right: 5px;
-    border: solid 2px #D5D8DC;
-}*/
-
-label.boton{
-    background-color: #F9F9F9;
-    padding: 10px;
-    border-radius: 5px;
-    margin-left: -15px;
-    margin-right: 5px;
     border: solid 2px #D5D8DC;
 }
-
-label.boton:checked{
+#contenedorBotones input[type=radio]:checked + label {
     background-color: #388BFC;
     padding: 10px;
     border-radius: 5px;
-    margin-left: -15px;
-    margin-right: 5px;
     color: #F9F9F9;
 }
 
