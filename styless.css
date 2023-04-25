@@ -23,6 +23,14 @@
     width: 50em;
 }
 
+#infoElements {
+    margin: 0 20px;
+}
+
+#infoElements<h3 {
+    margin-top: 20px;
+}
+
 div#listadoAves {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
