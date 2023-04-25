@@ -45,6 +45,10 @@ div#listadoZonas {
     margin-buttom: 20px;
 }
 
+#contenedorBotones {
+    margin: 10px 0 20px 0;
+}
+
 #contenedorBotones input[type=radio] {
   display: none;
 }
@@ -54,12 +58,14 @@ div#listadoZonas {
     padding: 10px;
     border-radius: 5px;
     border: solid 2px #D5D8DC;
+    margin: 0 5px 0 0;
 }
 #contenedorBotones input[type=radio]:checked + label {
     background-color: #388BFC;
     padding: 10px;
     border-radius: 5px;
     color: #F9F9F9;
+    border-color: #388BFC;
 }
 
 /* Avistamientos en el mapa */
