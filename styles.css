@@ -45,7 +45,16 @@ input.fecha {
     visibility: hidden;
 }
 
-label.boton {
+/*label.boton {
+    background-color: #F9F9F9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -15px;
+    margin-right: 5px;
+    border: solid 2px #D5D8DC;
+}*/
+
+input[type="radio"] + label:before{
     background-color: #F9F9F9;
     padding: 10px;
     border-radius: 5px;
@@ -54,7 +63,7 @@ label.boton {
     border: solid 2px #D5D8DC;
 }
 
-input[type="radio"] + label:before{
+input[type="radio"] + label:after{
     background-color: #388BFC;
     padding: 10px;
     border-radius: 5px;
