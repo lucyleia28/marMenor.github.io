@@ -65,6 +65,7 @@ div#listadoZonas {
     cursor: pointer;
     background-color: #90BDFA;
     border-color: #90BDFA;
+    color: #F9F9F9;
 }
 
 #contenedorBotones input[type=radio]:checked + label {
