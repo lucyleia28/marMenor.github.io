@@ -58,7 +58,7 @@ input.fecha {
     border: solid 2px #D5D8DC;
 }*/
 
-label.boton:before{
+label.boton{
     background-color: #F9F9F9;
     padding: 10px;
     border-radius: 5px;
@@ -67,7 +67,7 @@ label.boton:before{
     border: solid 2px #D5D8DC;
 }
 
-label.boton:after{
+label.boton:checked{
     background-color: #388BFC;
     padding: 10px;
     border-radius: 5px;
