@@ -23,6 +23,10 @@
     width: 50em;
 }
 
+#infoElements {
+    margin: 0 20px;
+}
+
 #infoElements<h3 {
     margin-top: 20px;
 }
@@ -54,7 +58,7 @@ input.fecha {
     border: solid 2px #D5D8DC;
 }*/
 
-input[type="radio"] + label:before{
+input[type="radio"] + label.boton:before{
     background-color: #F9F9F9;
     padding: 10px;
     border-radius: 5px;
@@ -63,7 +67,7 @@ input[type="radio"] + label:before{
     border: solid 2px #D5D8DC;
 }
 
-input[type="radio"] + label:after{
+input[type="radio"] + label.boton:after{
     background-color: #388BFC;
     padding: 10px;
     border-radius: 5px;
