@@ -58,7 +58,7 @@ input.fecha {
     border: solid 2px #D5D8DC;
 }*/
 
-input[type="radio"] + label.boton:before{
+label.boton:before{
     background-color: #F9F9F9;
     padding: 10px;
     border-radius: 5px;
@@ -67,7 +67,7 @@ input[type="radio"] + label.boton:before{
     border: solid 2px #D5D8DC;
 }
 
-input[type="radio"] + label.boton:after{
+label.boton:after{
     background-color: #388BFC;
     padding: 10px;
     border-radius: 5px;
