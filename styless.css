@@ -89,7 +89,7 @@ div#listadoZonasLateral>label {
 
 /* Avistamientos en el mapa */
 
-div.avistamientos {
+div.avistamiento {
     display: flex;
 }
 
@@ -104,19 +104,19 @@ div.avistamientoItem {
     width: 2rem;
     display: flex;
 }
-div.avistamientoColorRojo {
+.rojo {
     background-color: #E33B15;
 }
 
-div.avistamientoColorAmarillo {
+.amarillo {
     background-color: #E57701;
 }
 
-div.avistamientoColorVerde {
+.verde {
     background-color: #C7E466;
 }
 
-div.avistamientoColorGris {
+.gris {
     background-color: #8F9CA0;
 }
 
