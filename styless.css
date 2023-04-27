@@ -99,19 +99,19 @@ div.avistamientoItem {
     width: 2rem;
     display: flex;
 }
-div.avistamientoColorRojo {
+div.avistamientoItem>div.avistamientoColorRojo {
     background-color: #E33B15;
 }
 
-div.avistamientoColorAmarillo {
+div.avistamientoItem>div.avistamientoColorAmarillo {
     background-color: #E57701;
 }
 
-div.avistamientoColorVerde {
+div.avistamientoItem>div.avistamientoColorVerde {
     background-color: #C7E466;
 }
 
-div.avistamientoColorGris {
+div.avistamientoItem>div.avistamientoColorGris {
     background-color: #8F9CA0;
 }
 
