@@ -88,6 +88,9 @@ div#listadoZonasLateral>label {
 }
 
 /* Avistamientos en el mapa */
+div#listadoAvistamientos {
+    margin-bottom: 20px;
+}
 
 div.avistamiento {
     display: flex;
@@ -108,8 +111,12 @@ div.avistamientoItem {
     background-color: #E33B15;
 }
 
-.amarillo {
+.naranja {
     background-color: #E57701;
+}
+
+.amarillo {
+    background-color: #FAC500;
 }
 
 .verde {
