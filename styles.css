@@ -88,6 +88,11 @@ div#listadoZonasLateral>label {
 }
 
 /* Avistamientos en el mapa */
+
+div.avistamientos {
+    display: flex;
+}
+
 div.avistamientoTitulo {
     font-weight: initial;
 }
@@ -99,19 +104,19 @@ div.avistamientoItem {
     width: 2rem;
     display: flex;
 }
-div.avistamientoItem>div.avistamientoColorRojo {
+div.avistamientoColorRojo {
     background-color: #E33B15;
 }
 
-div.avistamientoItem>div.avistamientoColorAmarillo {
+div.avistamientoColorAmarillo {
     background-color: #E57701;
 }
 
-div.avistamientoItem>div.avistamientoColorVerde {
+div.avistamientoColorVerde {
     background-color: #C7E466;
 }
 
-div.avistamientoItem>div.avistamientoColorGris {
+div.avistamientoColorGris {
     background-color: #8F9CA0;
 }
 
