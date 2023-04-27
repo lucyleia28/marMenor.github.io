@@ -45,6 +45,15 @@ div#listadoZonas {
     margin-buttom: 20px;
 }
 
+div#listadoZonasLateral {
+    display: grid;
+    grid-gap: 5px;
+}
+
+div#listadoZonasLateral>label {
+    font-weight: initial;
+}
+
 #contenedorBotones {
     margin: 20px 0 20px 0;
 }
