@@ -45,15 +45,6 @@ div#listadoZonas {
     margin-buttom: 20px;
 }
 
-div#listadoZonasLateral {
-    display: grid;
-    grid-gap: 5px;
-}
-
-div#listadoZonasLateral>label {
-    font-weight: initial;
-}
-
 #contenedorBotones {
     margin: 20px 0 20px 0;
 }
@@ -85,7 +76,46 @@ div#listadoZonasLateral>label {
     border-color: #388BFC;
 }
 
+/* Mapa lateral */
+
+div#listadoZonasLateral {
+    display: grid;
+    grid-gap: 5px;
+}
+
+div#listadoZonasLateral>label {
+    font-weight: initial;
+}
+
 /* Avistamientos en el mapa */
+div.avistamientoTitulo {
+    font-weight: initial;
+}
+
+div.avistamientoItem {
+    position: relative;
+    margin: 0 0.5rem 0 0;
+    min-height: 1.2rem;
+    width: 2rem;
+    display: flex;
+}
+div.avistamientoColorRojo {
+    background-color: #E33B15;
+}
+
+div.avistamientoColorAmarillo {
+    background-color: #E57701;
+}
+
+div.avistamientoColorVerde {
+    background-color: #C7E466;
+}
+
+div.avistamientoColorGris {
+    background-color: #8F9CA0;
+}
+
+
 
 /* Fondo modal: negro con opacidad al 50% */
 
