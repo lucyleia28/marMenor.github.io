@@ -76,6 +76,18 @@ div#listadoZonas {
     border-color: #388BFC;
 }
 
+#contenedorBotones input[type=checkbox] {
+  display: none;
+}
+
+#contenedorBotones input[type=checkbox:checked + label {
+    background-color: #388BFC;
+    padding: 10px;
+    border-radius: 5px;
+    color: #F9F9F9;
+    border-color: #388BFC;
+}
+
 /* Mapa lateral */
 
 div#listadoZonasLateral {
