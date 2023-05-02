@@ -104,15 +104,15 @@ div#listadoAvistamientos {
     margin-bottom: 20px;
 }
 
-div.avistamiento {
+.avistamiento {
     display: flex;
 }
 
-div.avistamientoTitulo {
+.avistamientoTitulo {
     font-weight: initial;
 }
 
-div.avistamientoItem {
+.avistamientoItem {
     position: relative;
     margin: 0 0.5rem 0 0;
     min-height: 1.2rem;
