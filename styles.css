@@ -45,10 +45,6 @@ div#listadoZonas {
     margin-buttom: 20px;
 }
 
-div#listadoAvistamientos {
-    margin-bottom: 20px;
-}
-
 #contenedorBotones {
     margin: 20px 0 20px 0;
 }
@@ -123,6 +119,7 @@ div.avistamientoItem {
     width: 2rem;
     display: flex;
 }
+
 .rojo {
     background-color: #E33B15;
 }
@@ -142,8 +139,6 @@ div.avistamientoItem {
 .gris {
     background-color: #8F9CA0;
 }
-
-
 
 /* Fondo modal: negro con opacidad al 50% */
 
