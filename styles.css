@@ -35,14 +35,14 @@ div#listadoAves {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 5px;
-    margin-buttom: 20px;
+    margin-bottom: 20px;
 }
 
 div#listadoZonas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 5px;
-    margin-buttom: 20px;
+    margin-bottom: 20px;
 }
 
 #contenedorBotones {
@@ -85,6 +85,10 @@ div#listadoZonasLateral {
 
 div#listadoZonasLateral>label {
     font-weight: initial;
+}
+
+p {
+    font-weight: normal;
 }
 
 /* Avistamientos en el mapa */
@@ -153,6 +157,12 @@ button.estadoAgua:hover {
 #botonesGraficas {
     margin-bottom: 20px;
 }
+
+#botonesGraficasLateral {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 5px;
+    margin-bottom: 20px;
 
 /* Fondo modal: negro con opacidad al 50% */
 
