@@ -163,6 +163,7 @@ button.estadoAgua:hover {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 5px;
     margin-bottom: 20px;
+}
 
 /* Fondo modal: negro con opacidad al 50% */
 
