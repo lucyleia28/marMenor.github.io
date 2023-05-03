@@ -133,6 +133,20 @@ div#listadoAvistamientos {
   display: none;
 }
 
+button.estadoAgua {
+    background-color: #388BFC;
+    padding: 10px;
+    color: #F9F9F9;
+    border-color: #388BFC;
+    border-radius: 5px;
+    border: solid 2px #388BFC;
+    margin: 0 5px 0 0;
+}
+
+#botonesGraficas {
+    margin-bottom: 20px;
+}
+
 /* Fondo modal: negro con opacidad al 50% */
 
 .modal {
