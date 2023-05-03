@@ -10,17 +10,16 @@
 }
 
 #map {
-    /* grid-area: 1 / 1 / 2 / 2; */
     border: solid .2em #D0D4D8;
     height: 70em;
     width: 55em;
 }
 
 #info {
-    /* grid-area: 1 / 2 / 2 / 3; */
     background-color: #F9F9F9;
     border: solid #D0D4D8;
     width: 50em;
+    max-height: 70em;
 }
 
 #infoElements {
@@ -33,9 +32,11 @@
 
 div#listadoAves {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     grid-gap: 5px;
     margin-bottom: 20px;
+    height: 150px;
+    overflow-y: scroll;
 }
 
 div#listadoZonas {
