@@ -128,6 +128,11 @@ div#listadoAvistamientos {
     background-color: #8F9CA0;
 }
 
+/* Estado del agua */
+#contenedorBotones input[type=checkbox] {
+  display: none;
+}
+
 /* Fondo modal: negro con opacidad al 50% */
 
 .modal {
