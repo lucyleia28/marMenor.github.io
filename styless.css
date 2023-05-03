@@ -33,6 +33,7 @@ div#listadoAves {
     margin-bottom: 20px;
     height: 150px;
     overflow-y: scroll;
+    box-shadow: 2px 2px 0 0 #F9F9F9;
 }
 
 div#listadoZonas {
