@@ -1,34 +1,29 @@
 .marker-cluster-smallest {
 	background-color: #8F9CA0;
-	opacity: 0.6;
 }
 .marker-cluster-smallest div {
 	background-color: #8F9CA0;
 }
 .marker-cluster-smaller {
 	background-color: #C7E466;
-	opacity: 0.6;
 }
 .marker-cluster-smaller div {
 	background-color: #C7E466;
 }
 .marker-cluster-normal {
 	background-color: #FAC500;
-	opacity: 0.6;
 }
 .marker-cluster-normal div {
 	background-color: #FAC500;
 }
 .marker-cluster-big {
 	background-color: #E57701;
-	opacity: 0.6;
 }
 .marker-cluster-big div {
 	background-color: #E57701;
 }
 .marker-cluster-max {
 	background-color: #E33B15;
-	opacity: 0.6;
 }
 .marker-cluster-max div {
 	background-color: #E33B15;
