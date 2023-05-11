@@ -5,16 +5,27 @@
     grid-template-columns: auto auto;
 }
 
-#map {
+/*#map {
     border: solid .2em #D0D4D8;
     height: 70em;
     width: 55em;
+}*/
+#map {
+    border: solid 0.2em #D0D4D8;
+    height: 70em;
+    width: 49em;
 }
 
-#info {
+/*#info {
     background-color: #F9F9F9;
     border: solid #D0D4D8;
     width: 50em;
+    max-height: 59.9em;
+}*/
+#info {
+    background-color: #F9F9F9;
+    border: solid #D0D4D8;
+    width: 48em;
     max-height: 59.9em;
 }
 
