@@ -189,6 +189,7 @@ a#datosAbiertos:hover {
     background-color: #90BDFA;
     border-color: #90BDFA;
     color: #F9F9F9;
+    text-decoration: none;
 }
 
 /* Wikipedia */
