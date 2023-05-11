@@ -209,6 +209,12 @@ button.estadoAgua:hover {
     display: flow-root;
 }
 
+/* Marcadores */
+.marker-cluster-max span {
+    color: white;
+    opacity: 90%;
+}
+
 /* Fondo modal: negro con opacidad al 50% */
 
 .modal {
