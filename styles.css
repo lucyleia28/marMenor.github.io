@@ -163,8 +163,14 @@ button.estadoAgua:hover {
     margin-bottom: 20px;
 }
 
-/* Marcadores */
-
+/* Wikipedia */
+.vector-feature-zebra-design-disabled .vector-header-container {
+    margin: 0 auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
 
 /* Fondo modal: negro con opacidad al 50% */
 
