@@ -174,6 +174,30 @@ button.estadoAgua:hover {
     box-sizing: border-box;
 }
 
+.vector-feature-zebra-design-disabled .mw-page-container {
+    position: relative;
+    z-index: 0;
+    min-height: 100%;
+    padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1000px)
+.vector-feature-zebra-design-disabled .mw-body {
+    display: flow-root;
+}
+
+.vector-feature-zebra-design-disabled .mw-body {
+    display: flow-root;
+}
+
 /* Fondo modal: negro con opacidad al 50% */
 
 .modal {
